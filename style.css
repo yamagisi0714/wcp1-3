@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.red {
+	background-color: red;
+	height: 50px;
+}
+
+.orange {
+	background-color: orange;
+	height: 500px;
+	width: 100%;
+}
+
+main{
+	height: 1400px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.limegreen1 {
+	width: 230px;
+	height: 1400px;
+	background-color: limegreen;
+	float: left;
+}
+
+.green {
+	width: 500px;
+	height: 1400px;
+	background-color: green;
+	float: left;
+}
+
+.limegreen2 {
+	width: 230px;
+	height: 1400px;
+	background-color: limegreen;
+	float: left;
+}
+
+.blue {
+	height: 100px;
+	background-color: blue;
+}
